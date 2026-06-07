@@ -2,7 +2,7 @@ from logging import log
 import random
 a=["rock", "paper", "scissors"]
 winner=""
-first_usr_name = "AI"
+first_usr_name = "AII"
 second_usr_name = input("Welcome to rock,paper,scissor game. \nPlease write your name for your player\n")
 first_usr_choice = random.choice(a)
 second_usr_choice = input("Dear " + second_usr_name + ", select your choice(rock,paper or scissors)\n")
